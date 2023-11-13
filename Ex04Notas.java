@@ -18,9 +18,9 @@ public class Ex04Notas {
 				
 				System.out.println("Entre com a "+(coluna+1)+" nota: ");
 				matriz[linha][coluna] = ler.nextDouble();	
-				
+				// somando colunas
 				soma += matriz[linha][coluna];
-				
+				// média das colunas + zerando soma
 			} vetorMedia [linha] = soma/4;
 			soma=0;
 		}
