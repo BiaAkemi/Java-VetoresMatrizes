@@ -8,7 +8,7 @@ public class Ex02Vetores {
 		
 		Scanner leia = new Scanner (System.in);
 		
-		int x, soma = 0, num=0;
+		int x, soma = 0;
 		double media;
 		int vetor[] = new int[10];
 		
