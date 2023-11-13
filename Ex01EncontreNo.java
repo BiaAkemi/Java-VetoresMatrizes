@@ -10,7 +10,6 @@ public class Ex01EncontreNo {
 		boolean procura = false;
 		Scanner leia = new Scanner (System.in);
 		
-		
 		int vetor [] = {2, 5, 1, 3, 4, 9, 7, 8, 10, 6};
 		
 		System.out.println("Digite o número que você deseja encontrar");
