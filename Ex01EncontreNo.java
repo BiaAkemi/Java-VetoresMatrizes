@@ -19,7 +19,6 @@ public class Ex01EncontreNo {
 		for (x=0;x<vetor.length;x++) {
 			
 			if(num == vetor[x]) {
-				
 				procura = true;
 				System.out.println("\n O número "+num+" está na posição "+x);	
 			}
@@ -30,4 +29,4 @@ public class Ex01EncontreNo {
 		}
 	}
 
-}
+} 
