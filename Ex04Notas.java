@@ -7,9 +7,9 @@ public class Ex04Notas {
 	public static void main(String[] args) {
 		
 		int linha, coluna;
-		double soma = 0;
-		double matriz [] [] = new double [10][4];
-		double vetorMedia [] = new double[10];
+		float soma = 0;
+		float matriz [] [] = new float [10][4];
+		float vetorMedia [] = new float[10];
 		
 		Scanner ler = new Scanner(System.in);
 		
@@ -17,7 +17,7 @@ public class Ex04Notas {
 			for(coluna=0; coluna<=3; coluna++) {
 				
 				System.out.println("Entre com a "+(coluna+1)+" nota: ");
-				matriz[linha][coluna] = ler.nextDouble();	
+				matriz[linha][coluna] = ler.nextFloat();	
 				// somando colunas
 				soma += matriz[linha][coluna];
 				// média das colunas + zerando soma
